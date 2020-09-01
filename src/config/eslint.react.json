@@ -1,0 +1,48 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "rules": {
+    "semi": ["error", "always"],
+    "quotes": ["error", "single"],
+    "linebreak-style": ["error", "unix"],
+    "arrow-spacing": ["error", {
+      "before": true,
+      "after": true
+    }],
+    "no-multi-spaces": "error",
+    "camelcase": ["error", {
+      "properties": "never",
+      "allow": [
+        "UNSAFE_componentDidMount",
+        "UNSAFE_componentWillReceiveProps",
+        "UNSAFE_componentWillUpdate"
+      ]
+    }],
+    "indent": ["error", 2],
+    "space-before-blocks": ["warn", "always"],
+    "react/jsx-max-props-per-line": [1, { "maximum": 4, "when": "always" }],
+    "react/sort-prop-types": "warn",
+    "react/jsx-sort-props": "error",
+    "react/jsx-sort-default-props": "warn",
+    "react/jsx-no-duplicate-props": "warn",
+    "react/sort-comp": "warn",
+    "react/display-name": "warn",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "warn"
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 6
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ]
+}

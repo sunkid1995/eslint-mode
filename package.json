@@ -1,7 +1,7 @@
 {
   "name": "eslint-mode",
-  "version": "1.0.0",
-  "description": "This is test project",
+  "version": "1.0.2",
+  "description": "Quick setting format code with eslint.",
   "main": "src/index.js",
   "bin": "src/index.js",
   "scripts": {
@@ -22,5 +22,8 @@
     "url": "https://github.com/sunkid1995/eslint-mode.git/issues"
   },
   "homepage": "git+https://github.com/sunkid1995/eslint-mode.git#readme",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
 }
