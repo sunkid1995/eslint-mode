@@ -1,0 +1,2 @@
+# eslint-mode
+## Something wrong
