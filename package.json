@@ -1,0 +1,26 @@
+{
+  "name": "eslint-mode",
+  "version": "1.0.0",
+  "description": "This is test project",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "eslint",
+    "sunkid"
+  ],
+  "author": "sunkid1995",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunkid1995/eslint-mode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sunkid1995/eslint-mode.git/issues"
+  },
+  "homepage": "git+https://github.com/sunkid1995/eslint-mode.git#readme",
+  "license": "ISC"
+}
