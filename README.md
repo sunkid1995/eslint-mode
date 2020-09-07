@@ -1,2 +1,4 @@
 # eslint-mode
-## Something wrong
+## How to run
+- npx eslint-mode <br />
+- select framework
